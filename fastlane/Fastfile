@@ -25,10 +25,10 @@ default_platform(:ios)
 platform :ios do
 
   # ===========================================================================
-  #  TEST
+  #  wyld
   # ===========================================================================
-  desc "Test fastlane features"
-  lane :test do |options|
+  desc "wyld fastlane features"
+  lane :wyld do |options|
 
 
     puts(unrelease);
