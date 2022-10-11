@@ -32,7 +32,7 @@ platform :ios do
 
 
     puts("WYLD");
-    # puts(options[:version])
+    puts(options)
 
   end
 
