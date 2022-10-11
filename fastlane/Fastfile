@@ -1,0 +1,37 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+# ===========================================================================
+#  SETUP
+# ===========================================================================
+# Add the following into your environment vars, in my case i popped it in my .zshrc file
+# This is because fastlane might be too quick to recognise xcode is building
+#  export FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT=60
+
+default_platform(:ios)
+
+platform :ios do
+
+  # ===========================================================================
+  #  TEST
+  # ===========================================================================
+  desc "Test fastlane features"
+  lane :test do |options|
+
+
+    puts(unrelease);
+    puts(options[:version])
+
+end
