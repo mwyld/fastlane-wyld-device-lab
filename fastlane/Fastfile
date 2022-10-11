@@ -33,9 +33,9 @@ platform :ios do
 
     puts("WYLD");
     puts(options)
-    puts("test1:" + options[:test1])
-    puts("test2:" + options[:test2])
-    puts("test3:" + options[:test3])
+    puts("test1:" + String(options[:test1]))
+    puts("test2:" + String(options[:test2]))
+    puts("test3:" + String(options[:test3]))
 
   end
 
