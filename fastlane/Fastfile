@@ -34,4 +34,6 @@ platform :ios do
     puts(unrelease);
     puts(options[:version])
 
+  end
+
 end
