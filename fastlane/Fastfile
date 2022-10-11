@@ -31,8 +31,8 @@ platform :ios do
   lane :wyld do |options|
 
 
-    puts(unrelease);
-    puts(options[:version])
+    puts("WYLD");
+    # puts(options[:version])
 
   end
 
